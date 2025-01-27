@@ -1,30 +1,200 @@
-*{
-    background-color:  #003a6f;
-    ;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.imageLeft{
-    width:50%;
+body, html {
+    height: 100%;
+    width: 100%;
 }
 
-.imageRight{
-    width: 10rem;
+body {
+    background-color: #003a6f;
+    font-family: "louize", "Georgia", "Times", "Times New Roman", serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    margin-left: 18rem;
-    margin-bottom: 18rem;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
 }
 
-.elements{
+/* Flexbox for images to make them responsive */
+.imageLeft, .imageRight {
+    position: absolute;
+    z-index: -1; /* To keep images in the background */
+}
+
+.imageLeft {
+    width: 50%; /* 50% of the container width */
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.imageRight {
+    width: 30%; /* Initially 30% of the container width */
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+.text{
+    width: 40%;
+}
+
+.coloredTextC{
+    color: #9655FF;
+}
+.coloredTextO{
+    color: #55D8FF;
+}
+.coloredTextL{
+    color: #A3FF55;
+}
+.coloredTextD{
+    color: #FFF855;
+}
+.coloredTextP{
+    color: #FFB755;
+}
+.coloredTextL{
+    color: #F955FF;
+}
+.coloredTextA{
+    color: #FF3472;
+}
+.coloredTextY{
+    color: #9655FF;
+}
+
+.coldplay{
+    font-family: "Limelight", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Elements Container for text and buttons */
+.elements {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    color: #c9c9c9; 
+    margin-top: 100px; /* Space between images and content */
 }
 
-h1{
+/* Heading Styles */
+h1 {
     font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: "Bentham", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h2{
+
+h2 {
     font-size: 2rem;
+    margin-bottom: 40px;
+    font-family: "Bentham", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#months{
+    color: #F955FF;
+    font-size: x-large;
+}
+#days{
+    color: #FFF855;
+    font-size: x-large;
+}
+/* Counter and Playlist Styles */
+.counter, .playlist {
+    margin-top: 20px;
+}
+
+.playlist a {
+    text-decoration: none;
+    color: #F8F8F8;
+    font-size: 1.5rem;
+    background-color: #003a6f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+        font-family: "Bentham", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.playlist a:hover {
+    background-color: #005bb5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* For medium-sized screens (tablets and mobile portrait) */
+    .imageLeft, .imageRight {
+        width: 80%; /* Increase image width to take up more space */
+    }
+
+    .imageRight {
+        width: 50%; /* Reduce the right image width */
+        bottom: 5%;
+    }
+
+    .elements {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Smaller font size */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+
+    .playlist a {
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For small screens (mobile devices) */
+    .imageLeft, .imageRight {
+        width: 100%; /* Make images full width */
+    }
+
+    .imageRight {
+        width: 100%; /* Full width for right image */
+        bottom: 10%;
+    }
+
+    .elements {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+
+    .playlist a {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
 }
