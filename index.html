@@ -4,23 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bentham&family=Limelight&display=swap" rel="stylesheet">
     <title>Coldplay</title>
 </head>
 <body>
     <div id="wrapper">
         <img class="imageLeft" src="https://www.coldplay.com/wp/wp-content/themes/coldplay-2024/dist/images/bg-top-left.webp">
-         <img class="imageRight" src="https://www.coldplay.com/wp/wp-content/themes/coldplay-2024/dist/images/moons.webp">
+        <img class="imageRight" src="https://www.coldplay.com/wp/wp-content/themes/coldplay-2024/dist/images/moons.webp">
+        <img  class="imageRight text" src="https://www.coldplay.com/wp/wp-content/uploads/2024/06/Group-1050.svg">
+
+
         <div class="elements">
-            <h1>Hello friends</h1>
-            <h2>Are you ready to see Coldplay this summer?</h2>
-            <div class="counter"></div>
+            <h1>Hello Friends</h1>
+            <h2>Are you ready to see 
+                <span class="coloredTextC coldplay">C</span>
+                <span class="coloredTextO coldplay">O</span>
+                <span class="coloredTextL coldplay">L</span>
+                <span class="coloredTextD coldplay">D</span>
+                <span class="coloredTextP coldplay">P</span>
+                <span class="coloredTextL coldplay">L</span>
+                <span class="coloredTextA coldplay">A</span>
+                <span class="coloredTextY coldplay">Y</span>
+                this summer?</h2>
+            <div class="counter">
+                <p><span id="months"></span> Months, <span id="days"></span> Days until the concert</p>
+            </div>
             <div class="playlist">
                 <a href="playlist.html">Playlist</a>
             </div>
         </div>
   
     </div>
+    <script src="timer.js"></script>
 
 </body>
 </html>
+
+
 
