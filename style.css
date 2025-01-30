@@ -19,11 +19,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: relative;
     height: 100%;
     text-align: center;
-    padding: 20px;
 }
 
 /* Flexbox for images to make them responsive */
@@ -33,14 +30,14 @@ body {
 }
 
 .imageLeft {
-    width: 50%; /* 50% of the container width */
+    width: 60%; /* 50% of the container width */
     top: 0;
     left: 0;
     object-fit: cover;
 }
 
 .imageRight {
-    width: 30%; /* Initially 30% of the container width */
+    width: 50%; /* Initially 30% of the container width */
     bottom: 0;
     right: 0;
     object-fit: cover;
@@ -94,7 +91,7 @@ body {
 
 /* Heading Styles */
 h1 {
-    font-size: 2rem;
+    font-size: 8vw;
     margin-bottom: 10px;
     font-family: "Bentham", serif;
     font-weight: 400;
@@ -103,7 +100,7 @@ h1 {
 
 
 h2 {
-    font-size: 1rem;
+    font-size: 4vw;
     margin-bottom: 20px;
     font-family: "Bentham", serif;
     font-weight: 400;
@@ -128,7 +125,6 @@ h2 {
     color:#FF3472;
 }
 
-/* Counter and Playlist Styles */
 .counter, .playlist {
     margin-top: 10px;
 }
@@ -136,7 +132,7 @@ h2 {
 .playlist a {
     text-decoration: none;
     color:#FFB755;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #003a6f;
     padding: 10px 20px;
     border-radius: 5px;
@@ -145,11 +141,10 @@ h2 {
 }
 
 .flower{
-    width: 6%;
+    width: 7%;
 }
 
 .playlist a:hover {
     color: #FFF855;
 }
-
 
