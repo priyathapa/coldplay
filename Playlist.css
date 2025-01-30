@@ -29,7 +29,7 @@ body {
     }
 
 h{
-    font-size: xx-large;
+    font-size: large;
     font-family: "Ribeye", serif;
 }
 
@@ -48,6 +48,7 @@ h{
     margin-top:2px;
     font-style: normal;
     font-family: "Ribeye Marrow", serif;
+    font-size: small;
     font-style: normal;
 }
 
@@ -115,14 +116,14 @@ h{
 }
 
 .imageLeft {
-    width: 50%; /* 50% of the container width */
+    width: 60%; /* 50% of the container width */
     top: 0;
     left: 0;
     object-fit: cover;
 }
 
 .imageRight {
-    width: 30%; /* Initially 30% of the container width */
+    width: 50%; /* Initially 30% of the container width */
     bottom: 0;
     right: 0;
     object-fit: cover;
