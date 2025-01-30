@@ -15,6 +15,23 @@ body {
     font-family: "louize", "Georgia", "Times", "Times New Roman", serif;
 }
 
+.home{
+    position: absolute;
+    right:0;
+    top: 0;
+    color: #FF3472;
+    padding:8px 8px 8px 8px;
+    font-size: x-large;
+}
+
+    .home:hover{
+        color:#A3FF55;
+    }
+
+h{
+    font-size: xx-large;
+    font-family: "Ribeye", serif;
+}
 
 .songsSection {
     display: flex;
@@ -26,9 +43,82 @@ body {
     text-align: center;
 }
 
-.imageRight {
+.songsList{
+    color: #c9c9c9;
+    margin-top:2px;
+    font-style: normal;
+    font-family: "Ribeye Marrow", serif;
+    font-style: normal;
+}
+
+.songsList a{
+        color: inherit; /* Remove the default blue color */
+        text-decoration: none; /* Remove the underline */
+}
+
+.c{
+    color: #F955FF;
+}
+.o{
+    color: #FFF855;
+}
+.n{
+    color: #FF3472;
+}
+.e{
+    color: #A3FF55;
+}
+.r{
+    color: #9655FF;
+}
+.t{
+    color: #F955FF;
+}
+.l{
+    color: #FFB755;
+}
+.i{
+    color: #FF3472;
+}
+.u{
+    color: #FFF855;
+}
+.p{
+    color: #A3FF55;
+}
+.doodles{
+    height: 6%;
+}
+
+.linksForMusic{
+    color:#c9c9c9;
+    font-family: "Ribeye", serif;
+}
+.spotify{
+    color:#9655FF;
+}
+.apple{
+    color:#F955FF;
+}
+.youtube{
+    color:#FF3472;
+}
+
+.extraText{
+    margin-top:1px;
+    font-size: small;
+}
+/* Flexbox for images to make them responsive */
+.imageLeft, .imageRight {
     position: absolute;
     z-index: -1; /* To keep images in the background */
+}
+
+.imageLeft {
+    width: 50%; /* 50% of the container width */
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
 
 .imageRight {
