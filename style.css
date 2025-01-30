@@ -136,7 +136,7 @@ h2 {
 .playlist a {
     text-decoration: none;
     color:#FFB755;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #003a6f;
     padding: 10px 20px;
     border-radius: 5px;
@@ -145,7 +145,7 @@ h2 {
 }
 
 .flower{
-    width: 8%;
+    width: 6%;
 }
 
 .playlist a:hover {
