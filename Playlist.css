@@ -10,6 +10,10 @@ body, html {
     width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #003a6f;
     font-family: "louize", "Georgia", "Times", "Times New Roman", serif;
