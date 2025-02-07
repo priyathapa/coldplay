@@ -89,7 +89,7 @@ body {
     background-color: rgba(0, 23, 75, 0.2);
     border-radius: 5px;
     width: 100%;
-    max-width: 200px;  /* Limit the width of the comment section */
+    max-width: 300px;  /* Limit the width of the comment section */
 }
 
 #comment-list {
