@@ -42,7 +42,7 @@ body {
 }
 
 .imageRight {
-    width: 30%; /* Initially 30% of the container width */
+    width: 40%; /* Initially 30% of the container width */
     bottom: 0;
     right: 0;
     object-fit: cover;
