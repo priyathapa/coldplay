@@ -89,12 +89,12 @@ body {
     background-color: rgba(0, 23, 75, 0.2);
     border-radius: 5px;
     width: 100%;
-    max-width: 300px;  /* Limit the width of the comment section */
+    max-width: 200px;  /* Limit the width of the comment section */
 }
 
 #comment-list {
     margin-bottom: 10px;
-    max-height: 300px;  /* Max height to allow scrolling */
+    max-height: 200px;  /* Max height to allow scrolling */
     overflow-y: auto;  /* Allow scrolling if comments overflow */
 }
 
