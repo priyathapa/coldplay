@@ -148,6 +148,24 @@ h2 {
 .playlist a:hover {
     color: #FFF855;
 }
+
+.fade-in {
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeIn 1s forwards 1s; 
+  }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
 @media (min-width: 768px) {
     h1 {
         font-size: 4rem; /* or adjust as needed */
