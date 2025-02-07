@@ -51,7 +51,7 @@ body {
 .imageFlower{
     width: 17%; /* Initially 30% of the container width */
     bottom: 3rem;
-    left: 4rem;
+    left: 3rem;
     object-fit: cover;
 }
 #wrapper {
