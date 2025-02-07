@@ -92,7 +92,7 @@ body {
 
 /* Heading Styles */
 h1 {
-    font-size: 8vw;
+    font-size: 9vw;
     margin-bottom: 10px;
     font-family: "Bentham", serif;
     font-weight: 400;
@@ -148,4 +148,22 @@ h2 {
 .playlist a:hover {
     color: #FFF855;
 }
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem; /* or adjust as needed */
+    }
 
+    h2 {
+        font-size: 3rem; /* or adjust as needed */
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 5rem; /* slightly larger for bigger screens */
+    }
+
+    h2 {
+        font-size: 4rem; /* adjust accordingly */
+    }
+}
