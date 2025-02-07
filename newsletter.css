@@ -60,11 +60,25 @@ body {
     height: 100%;
     text-align: center;
     padding: 20px;
+   
 }
 
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 .heading{
     font-family: "Ribeye", serif;
     font-size: x-large;
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeIn 1s forwards 1s;
 }
 
 .n{ color:#FFB755}
@@ -76,11 +90,14 @@ body {
     color:#c9c9c9;
     font-family: "Bentham", serif;
     font-size: large;
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeIn 1s forwards 1s;
 }
 
 .leaveComment{
     font-family: "Ribeye", serif;
-    color:#A3FF55;
+    color:#c9c9c9;
 }
 
 #comment-section {
@@ -89,7 +106,10 @@ body {
     background-color: rgba(0, 23, 75, 0.2);
     border-radius: 5px;
     width: 100%;
-    max-width: 300px;  /* Limit the width of the comment section */
+    max-width: 200px;  /* Limit the width of the comment section */
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeIn 1s forwards 1s;
 }
 
 #comment-list {
