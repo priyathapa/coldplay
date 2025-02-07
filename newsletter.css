@@ -49,8 +49,8 @@ body {
 }
 
 .imageFlower{
-    width: 15%; /* Initially 30% of the container width */
-    bottom: 4rem;
+    width: 17%; /* Initially 30% of the container width */
+    bottom: 3rem;
     left: 4rem;
     object-fit: cover;
 }
