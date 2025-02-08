@@ -113,6 +113,11 @@ h{
     margin-top:1px;
     font-size: small;
 }
+
+.wePray{
+    color: #F955FF;
+    font-style: italic;
+}
 /* Flexbox for images to make them responsive */
 .imageLeft, .imageRight {
     position: absolute;
